@@ -1,0 +1,32 @@
+Los siguientes comandos, son aceptados en la sintaxis del programa
+Tortuguis, ver las instrucciones abajo:
+
+COMANDOS UTILIZADOS PARA EL PROGRAMA TORTUGUIS
+
+
+AVANZAR: FD N
+RETROCEDER: BK N
+GIRAR IZQUIERDA: LT N
+GIRAR DERECHA: RT N
+LAPIZ ARRIBA: PU
+LAPIZ ABAJO: PD
+REPETIR INSTRUCCIONES: REPEAT N[C1 N C2 N C3 N... CN N]
+LIMPIAR PANTALLA: HOME
+TOMAR FOTO: SCRSHOT
+MOSTRAR AYUDA: HELP
+OCULTAR AYUDA: HELPHIDD
+
+/*ALGUNOS COMANDOS DE PRUEBA*/
+repeat 360[rt 10 fd 50 lt 5 bk 50]
+repeat 360[rt 10 fd 100 lt 5 bk 100]
+repeat 360[rt 25 fd 50 lt 10 bk 50]
+repeat 360[rt 45 fd 50 lt 16 bk 50]
+repeat 360[rt 45 fd 20 lt 16 bk 50]
+repeat 360[rt 1 fd 20 lt 16 bk 50]
+repeat 360[rt 5 fd 20 lt 16 bk 50]
+SCRSHOT
+HELP
+HELPHIDD
+
+Nota: para el comando SCRSHOT las imágenes se guardan en la carpeta 
+scrshot_tortuguis de la unidad C de disco duro
